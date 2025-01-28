@@ -7,7 +7,7 @@ import { IoCartOutline } from 'react-icons/io5'
 
 export const TopMenu = () => {
   return (
-    <nav className="flex items-center w-full  bg-violet-brand dark:bg-purple-brand px-4">
+    <nav className="flex items-center w-full dark:bg-purple-brand px-4">
       {/* column left (optional content) */}
       <div className="flex-1"></div>
 
@@ -16,13 +16,18 @@ export const TopMenu = () => {
       <div className="flex-1 flex justify-center my-2">
         <Link href={'/'}>
           <div className="dark:hidden">
-            <Image alt="logo" src="/brand/logo.png" width={200} height={200} />
+            <Image
+              alt="logo"
+              src="/images/brand/logo.png"
+              width={200}
+              height={200}
+            />
           </div>
 
           <div className="hidden dark:block">
             <Image
               alt="logo-dark"
-              src="/brand/logo-dark.png"
+              src="/images/brand/logo-dark.png"
               width={200}
               height={200}
             />

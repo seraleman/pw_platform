@@ -22,13 +22,13 @@ export const Footer = () => {
 
         {/* Instagram */}
         <a
-          href="https://instagram.com/purple.wellnes"
+          href="https://instagram.com/purple.wellness"
           target="_blank"
           rel="noopener noreferrer"
           className="opacity-80 hover:opacity-100 transition-opacity duration-300 flex items-center gap-2"
         >
           <FaInstagram className="w-4 h-4 text-pink-500" />
-          <span>@purple.wellnes</span>
+          <span>@purple.wellness</span>
         </a>
 
         {/* Separador visual */}

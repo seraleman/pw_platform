@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { IoCartOutline } from 'react-icons/io5'
 
 export const TopMenu = () => {
   return (
@@ -38,7 +37,7 @@ export const TopMenu = () => {
       {/* column right */}
       <div className="flex-1">
         {/* cart icon */}
-        <div className="flex justify-end">
+        {/* <div className="flex justify-end">
           <Link href="/cart" className="mx-2">
             <div className="relative ml-2 mr-10">
               <span className="absolute text-xs rounded-full px-1 font-bold -top-2 -right-2 text-white dark:text-purple-brand bg-purple-brand dark:bg-white">
@@ -47,7 +46,7 @@ export const TopMenu = () => {
               <IoCartOutline className="w-6 h-6" />
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </nav>
   )

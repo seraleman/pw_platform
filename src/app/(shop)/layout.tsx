@@ -1,4 +1,4 @@
-import { TopMenu } from '@/components'
+import { Footer, TopMenu, WhatsappButton } from '@/components'
 
 export default function ShopLayout({
   children,
@@ -10,7 +10,8 @@ export default function ShopLayout({
       <TopMenu />
       {/* Sidebar */}
       <div>{children}</div>
-      {/* Footer */}
+      <WhatsappButton />
+      <Footer />
     </div>
   )
 }

@@ -1,10 +1,10 @@
-import { Hero, Products } from '@/components'
+import { Hero, ProductGrid } from '@/components'
 
 export default function ShopPage() {
   return (
     <div>
       <Hero />
-      <Products />
+      <ProductGrid />
     </div>
   )
 }

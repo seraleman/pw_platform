@@ -13,6 +13,7 @@ export default {
         foreground: 'var(--foreground)',
         ['purple-brand']: '#421c65',
         ['violet-brand']: '#e8d7ff',
+        ['purple-card-dark']: '#b19dfc',
       },
     },
   },

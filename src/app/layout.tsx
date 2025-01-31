@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: 'Purple Wellness',
     images: [
       {
-        url: 'https://purplewellness.co/images/hero/bowl-background.png',
+        url: 'https://purplewellness.co/images/products/berry-bliss.png',
         width: 1200,
         height: 630,
         alt: 'Bowl saludable',

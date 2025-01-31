@@ -13,8 +13,27 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Purple Wellness',
-  description: 'Purple Wellness - Tienda de productos naturales',
+  title: 'Purple Wellness | Bowls Saludables y Nutritivos',
+  description:
+    'Descubre los mejores bowls de açaí y opciones saludables en Purple Wellness. Frescura, sabor y bienestar en cada bocado.',
+  keywords:
+    'açaí, bowls saludables, comida saludable, bienestar, superfoods, alimentación balanceada',
+  openGraph: {
+    title: 'Purple Wellness - Bowls Saludables',
+    description:
+      'Los mejores bowls de açaí con ingredientes naturales y nutritivos.',
+    url: 'https://purplewellness.co',
+    siteName: 'Purple Wellness',
+    images: [
+      {
+        url: 'https://purplewellness.co/images/hero/bowl-background.png',
+        width: 1200,
+        height: 630,
+        alt: 'Bowl saludable',
+      },
+    ],
+    type: 'website',
+  },
 }
 
 export default function RootLayout({

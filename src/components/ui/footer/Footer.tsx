@@ -6,7 +6,7 @@ import { FaInstagram } from 'react-icons/fa'
 export const Footer = () => {
   return (
     <motion.footer
-      className="w-full bg-gray-900 text-white py-4 text-center border-t border-gray-700"
+      className="w-full bg-gray-900 text-white py-4 text-center border-t border-gray-700 mt-auto"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}

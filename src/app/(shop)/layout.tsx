@@ -6,7 +6,7 @@ export default function ShopLayout({
   children: React.ReactNode
 }) {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <TopMenu />
       {/* Sidebar */}
       <div>{children}</div>

@@ -5,6 +5,7 @@ export interface Product {
   base: string
   imagenes: string[]
   precio: number
+  slug: string
 }
 
 export const productsData: Product[] = [
@@ -16,6 +17,7 @@ export const productsData: Product[] = [
     base: 'yogurt',
     imagenes: ['/images/products/green-delight.png'],
     precio: 24200,
+    slug: 'green-delight',
   },
   {
     nombre: 'Tropical Vibe',
@@ -31,6 +33,7 @@ export const productsData: Product[] = [
     base: 'yogurt',
     imagenes: ['/images/products/tropical-vibe.png'],
     precio: 25100,
+    slug: 'tropical-vibe',
   },
   {
     nombre: 'Solar Glow',
@@ -46,6 +49,7 @@ export const productsData: Product[] = [
     base: 'açaí',
     imagenes: ['/images/products/solar-glow.png'],
     precio: 19100,
+    slug: 'solar-glow',
   },
   {
     nombre: 'Berry Bliss',
@@ -61,5 +65,6 @@ export const productsData: Product[] = [
     base: 'açaí',
     imagenes: ['/images/products/berry-bliss.png'],
     precio: 20900,
+    slug: 'berry-bliss',
   },
 ]
